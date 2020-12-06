@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flex-grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>task 7</title>
+</head>
+<body>
+    <header>
+        <div class="header_nav">
+            <div>
+                <a class="logo" href="#">ОЛИМП</a>
+                <nav class="lk">
+                    <div>
+                        <img class="round icon" src="img/cat.jpg">
+                        <p class="name">Артемий</p>
+                        <a class="material-icons" href="#">expand_more</a>
+                    </div>
+                </nav>
+            </div>
+        </div>    
+    </header>
+    <main >
+        <div class="flex-row main">
+            <div>
+                <div>
+                    <div class="flex-column bg">
+                            <div>
+                                <div class="flex-row aligin">
+                                    <div class="flex-row">
+                                        <h5 class="space">Профессиональные навыки</h5>
+                                        <div class="tooltip">
+                                            <p class="tooltiptext">Навыки, необходимые вам для вашей профессиональной деятельности</p>
+                                            <samp class="material-icons range-icon">error_outline</samp>
+                                        </div>
+                                    </div>
+                                    <label for="skills" class="material-icons pointer down">arrow_circle_down</label>
+                                </div>
+                            </div>
+                            
+                            <input type="checkbox" id="skills" checked>
+
+                            <div class="flex-column skills">
+                                <form action="#" method="POST" class="blue">
+                                    <div class="flex-row">
+                                        <label>Web-программирование</label>
+                                        <label>C#</label>
+                                        <label>Blender</label>
+                                        <label>Clion</label>
+                                    </div>
+                                    <div class="bluelistinputs">
+                                        <input name="bluelistinputs[]" type="checkbox" value="1">
+                                        <input name="bluelistinputs[]" type="checkbox" value="2">
+                                        <input name="bluelistinputs[]" type="checkbox" value="3">
+                                        <input name="bluelistinputs[]" type="checkbox" value="4">
+                                    </div>
+                                </form>
+                                <div class="media row-list">
+                                    <a class="the_chosen" href="#">Программирование</a>
+                                    <a class="options" href="#">Дизайн</a>
+                                    <a class="options" href="#">Приборостроение</a>
+                                    <a class="options" href="#">Робототехника</a>
+                                    <a class="options" href="#">Музыка</a>
+                                    <a class="options" href="#">Искусство</a>
+                                    <a class="options" href="#">3-D</a>
+                                </div>
+
+                                <div class="flex-row">
+                                    <Ul class="right-bar col-3">
+                                        <li class="the_chosen"><span class="material-icons">work</span>Инструменты </li>
+                                        <ul>
+                                            <li class="the_chosen"><span class="material-icons">chevron_right</span> IDE</li>
+                                            <li><span class="material-icons">chevron_right</span> Frameworks</li>
+                                        </ul>
+                                        <li><span class="material-icons">emoji_objects</span>Концепции</li>
+                                        <li><span class="material-icons">palette</span>Стили</li>
+                                    </Ul>
+
+                                    <div>
+                                        <form action="#" method="POST" class="flex-row range">
+
+                                            <div class="range-div">
+                                                <div class="range-table">
+                                                    <label for="VS" class="">Visual Studio</label>
+                                                    
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="VS" name="VS" min="0" max="7">
+                                            </div>
+
+                                            <div class="range-div">
+                                                <div class="range-table">
+                                                    <label for="Xcode">Xcode</label>
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="Xcode" name="Xcode" min="0" max="7">
+                                            </div>
+
+                                            <div class="range-div">
+                                                
+                                                <div class="range-table">
+                                                    <label for="Xcode2">Xcode </label>
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="Xcode" name="Xcode" min="0" max="7">
+                                            </div>
+
+
+                                            <div class="range-div">
+                                                
+                                                <div class="range-table">
+                                                    <label for="Clion">Clion </label>
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="Clion" name="Clion" min="0" max="7">
+                                            </div>
+
+                                            <div class="range-div">
+                                                <div class="range-table">
+                                                    <label for="Brackets">Brackets</label>
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="Brackets" name="Brackets" min="0" max="7">
+                                            </div>
+
+
+                                            <div class="range-div">
+                                                
+                                                <div class="range-table">
+                                                    <label for="Brackets2">Brackets</label>
+                                                    <div class="tooltip">
+                                                        <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                        <p class="nums">7/7</p>
+                                                        <samp class="material-icons range-icon">error_outline</samp>
+                                                    </div>
+                                                </div>
+                                                <input type="range" id="Brackets2" name="Brackets2" min="0" max="7">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                        
+                            </div>
+
+                        
+
+                    </div><!---->
+
+
+                    <div>
+                        <div class="flex-column bg">
+                            <div>
+                                <div class="flex-row aligin">
+                                    <div class="flex-row">
+                                        <h5 class="space">Метанавыки</h5>
+                                        <div class="tooltip">
+                                            <p class="tooltiptext">Навыки, отвечающие за успешное участие в рабочем процессе, высокую производительность, при этом несвязанные с конкретной предметной областью</p>
+                                            <samp class="material-icons range-icon">error_outline</samp>
+                                        </div>
+                                    </div>
+                                    
+                                    <label for="metaskills" class="material-icons pointer down">arrow_circle_down</label>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                                
+                            </div>
+                            <input type="checkbox" id="metaskills" checked>
+                                
+                            <div class="flex-column metaskills">
+                                <div class="">
+                                    <div class="media row-list">
+                                        <a class="the_chosen" href="#">Management</a>
+                                        <a class="options" href="#">Знание языков</a>
+                                        <a class="options" href="#">Работа в команде</a>
+                                        <a class="options" href="#">Управление временем</a>
+                                    </div>
+                                    <div class="flex-row">
+                                        <Ul class="right-bar col-3">
+                                            <li class="the_chosen"><span class="material-icons">work</span>Инструменты </li>
+                                            <ul>
+                                                <li class="the_chosen"><span class="material-icons">chevron_right</span> IDE</li>
+                                                <li><span class="material-icons">chevron_right</span>Frameworks</li>
+                                            </ul>
+                                            <li><span class="material-icons">emoji_objects</span>Концепции</li>
+                                            <li><span class="material-icons">palette</span>Стили</li>
+                                        </Ul>
+                                        <div class="">
+                                            <form action="#" method="POST" class="flex-row range">
+                                                <div class="range-div">
+                                                    <div class="range-table">
+                                                        <label for="Trello"> Trello </label>
+                                                        <div class="tooltip">
+                                                            <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                            <p class="nums">7/7</p>
+                                                            <samp class="material-icons range-icon">error_outline</samp>
+                                                        </div>
+                                                    </div>
+                                                    <input type="range" id="Trello" name="Trello" min="0" max="7">
+                                                </div>
+
+                                                <div class="range-div">
+                                                    <div class="range-table">
+                                                        <label for="GitLHub">GitLHub</label> 
+                                                        <div class="tooltip">
+                                                            <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                            <p class="nums">7/7</p>
+                                                            <samp class="material-icons range-icon">error_outline</samp>
+                                                        </div>
+                                                    </div>
+                                                    <input type="range" id="GitLHub" name="GitLHub" min="0" max="7">
+                                                </div>
+
+                                                <div class="range-div">
+                                                    <div class="range-table">
+                                                        <label for="Jira">Jira</label>
+                                                        <div class="tooltip">
+                                                            <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                            <p class="nums">7/7</p>
+                                                            <samp class="material-icons range-icon">error_outline</samp>
+                                                        </div>
+                                                    </div>
+                                                    <input type="range" id="Jira" name="Jira" min="0" max="7">
+                                                </div>
+
+                                                <div class="range-div">
+                                                    <div class="range-table">
+                                                        <label for="Wrike">Wrike</label>
+                                                        <div class="tooltip">
+                                                            <p class="tooltiptext">Знаю предметную область на достаточно хорошем уровне</p>
+                                                            <p class="nums">7/7</p>
+                                                            <samp class="material-icons range-icon">error_outline</samp>
+                                                        </div>
+                                                    </div>
+                                                    <input class="slider" type="range" id="Wrike" name="Wrike" min="0" max="7">
+                                                </div>
+                                                
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            
+    
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="none">
+                    <nav class="bg interes">
+                        <div class="flex-row aligin">
+                            <div class="flex-row">
+                                <h3 class="space" >Интересы</h3>
+                                <div class="tooltip">
+                                    <p class="tooltiptext">Круг ваших интерсов </p>
+                                    <samp class="material-icons range-icon">error_outline</samp>
+                                </div>
+                            </div>
+                            <div class="flex-row aligin">
+                                <div class="tooltip"> 
+                                    <ul class="tooltiptext sort">
+                                        <li>Сортировать по дате</li>
+                                        <li>Сортировать по периодичности</li>
+                                    </ul> 
+                                    <samp class="material-icons sort-icon pointer">sort</samp>
+                                </div>
+                                <label for="interests" class="material-icons pointer down">arrow_circle_down</label>
+                            </div>
+
+                        </div>
+                        <div class="interests">
+
+                            <input type="checkbox" id="interests" checked>
+                            
+
+                            <ol class="content">
+                                <li>Приборостроение</li>
+                                <div class="p-border">
+                                    <p>Интересуюсь тем-то и тем-то, так как приборостроение у меня в интересах</p>
+                                    <div class="dateinfo">
+                                        <p><span>Периодичность:</span> раз в день</p>
+                                        <p><span>Дата создания:</span> 10.03.20</p>
+                                    </div>
+                                </div>
+
+                                <li>Робототехника</li>
+                                <div class="p-border">
+                                    <p>Роботы и все,что с ними связано</p>
+                                    <div class="dateinfo">
+                                        <p><span>Периодичность:</span> раз в день</p>
+                                        <p><span>Дата создания:</span> 10.03.20</p>
+                                    </div>
+                                </div>
+                                <li>Программирование</li>
+                                <li>Дизайн</li>
+                            </ol>
+                        </div>
+                    </nav>
+            </div>    
+            
+        </div>    
+    </main>
+    <footer></footer>
+
+
+</body>
+</html>
